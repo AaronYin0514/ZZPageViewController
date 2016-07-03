@@ -14,6 +14,7 @@
 		1810CD1C1CDEEC3E00656DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1810CD1B1CDEEC3E00656DF3 /* Assets.xcassets */; };
 		1810CD1F1CDEEC3E00656DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810CD1D1CDEEC3E00656DF3 /* LaunchScreen.storyboard */; };
 		1810CD2A1CDEEC3E00656DF3 /* _01UIPageViewController____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810CD291CDEEC3E00656DF3 /* _01UIPageViewController____UITests.m */; };
+		1810CD371CDEEC5100656DF3 /* ZZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810CD361CDEEC5100656DF3 /* ZZPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1810CD251CDEEC3E00656DF3 /* 001UIPageViewController标准用法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001UIPageViewController标准用法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1810CD291CDEEC3E00656DF3 /* _01UIPageViewController____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01UIPageViewController____UITests.m"; sourceTree = "<group>"; };
 		1810CD2B1CDEEC3E00656DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1810CD351CDEEC5100656DF3 /* ZZPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPageViewController.h; sourceTree = "<group>"; };
+		1810CD361CDEEC5100656DF3 /* ZZPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		1810CD0E1CDEEC3E00656DF3 /* 001UIPageViewController标准用法 */ = {
 			isa = PBXGroup;
 			children = (
+				1810CD341CDEEC5100656DF3 /* ZZPageViewController */,
 				1810CD121CDEEC3E00656DF3 /* AppDelegate.h */,
 				1810CD131CDEEC3E00656DF3 /* AppDelegate.m */,
 				1810CD151CDEEC3E00656DF3 /* ViewController.h */,
@@ -109,6 +113,15 @@
 				1810CD2B1CDEEC3E00656DF3 /* Info.plist */,
 			);
 			path = "001UIPageViewController标准用法UITests";
+			sourceTree = "<group>";
+		};
+		1810CD341CDEEC5100656DF3 /* ZZPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1810CD351CDEEC5100656DF3 /* ZZPageViewController.h */,
+				1810CD361CDEEC5100656DF3 /* ZZPageViewController.m */,
+			);
+			path = ZZPageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1810CD171CDEEC3E00656DF3 /* ViewController.m in Sources */,
+				1810CD371CDEEC5100656DF3 /* ZZPageViewController.m in Sources */,
 				1810CD141CDEEC3E00656DF3 /* AppDelegate.m in Sources */,
 				1810CD111CDEEC3E00656DF3 /* main.m in Sources */,
 			);
